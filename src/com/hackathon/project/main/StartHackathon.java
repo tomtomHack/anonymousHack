@@ -111,7 +111,7 @@ public class StartHackathon
                System.out.println("Error");
             }
             } catch (IOException e) {
-               // do something
+               System.out.println(e.toString());
             }
             
         } catch (Exception e) {
